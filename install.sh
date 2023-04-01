@@ -13,13 +13,13 @@ fi
 homedir=$1
 
 # dotfiles directory
-dotfiledir=${homedir}/dotfiles
+dotfiledir=${homedir}/Documents/Code/Github/dotfiles
 
 # list of files/folders to symlink in ${homedir}
-files="bash_profile bashrc bash_prompt aliases private"
+files="zprofile aliases"
 
 # change to the dotfiles directory
-echo "Changing to the ${dotfiledir} directory"
+echo "Changing to the ${dotfiledir} directory?"
 cd ${dotfiledir}
 echo "...done"
 
